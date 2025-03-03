@@ -1,41 +1,58 @@
-# Website
+Work Trial Task
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Objective: This task is designed to evaluate your ability to work with Next.js, API integration, state management, and documentation using Docusaurus.
 
-### Installation
 
-```
-$ yarn
-```
+Task: Build a Simple Crypto Price Tracker
 
-### Local Development
+Description:
 
-```
-$ yarn start
-```
+Create a Crypto Price Tracker that consists of:
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+A web dashboard (Next.js) to display live cryptocurrency prices.
 
-### Build
+A developer documentation page (Docusaurus) explaining your approach.
 
-```
-$ yarn build
-```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Task Details:
 
-### Deployment
+Web App (Next.js)
 
-Using SSH:
+Create a simple dashboard that displays the latest prices of 5 cryptocurrencies.
 
-```
-$ USE_SSH=true yarn deploy
-```
+Use a public API like CoinGecko or CoinCap to fetch live prices.
 
-Not using SSH:
+Implement a search bar to filter the displayed cryptocurrencies.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+Add a “Refresh” button to fetch updated prices manually.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Use a state management approach (React Query, Zustand, or Context API).
+
+Display a loading indicator while fetching data.
+
+Documentation (Docusaurus)
+
+Set up a Docusaurus project and create a documentation page.
+
+Include:
+
+Project setup guide (how to run both web and mobile apps).
+
+API integration details (how data is fetched and updated).
+
+State management explanation (why you chose React Query/Zustand/Context API).
+
+Challenges & solutions you faced while building the project.
+
+Evaluation Criteria:
+
+API integration skills (fetching, caching, error handling).
+
+UI/UX and responsiveness on both web & mobile.
+
+Code quality and best practices.
+
+State management approach.
+
+Documentation clarity and structure.
+
